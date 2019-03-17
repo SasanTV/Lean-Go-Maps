@@ -8,8 +8,15 @@ Support: tavakkol.sasan@gmail.com
 
 Getting Started
 ---------------------------
-Assign GoogleStaticMap.cs to an object (such as a quad) with a material assigned.
-Call initialize() and then DrawMap(). 
+You need to generate a Google Static Maps API key and setup billing with them before you can use this asset. 
+Here is how to get a key: https://developers.google.com/maps/documentation/maps-static/get-api-key#get-an-api-key
+
+After you generate this key, you need to set it in GoogleStaticMap.cs as below:
+
+[+] private string _apiKey = "YOUR_KEY_GOES_HERE";
+
+Now, you can assign GoogleStaticMap.cs to an object (such as a quad) with a material assigned.
+Call initialize() and then DrawMap(). To learn more investigate the demo scene.
 
 Learn More
 ---------------------------
