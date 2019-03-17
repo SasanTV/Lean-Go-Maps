@@ -1,5 +1,6 @@
 Lean Go Maps
 ---------------------------
+see in action: https://youtu.be/SbUNzdPsL4s
 
 Lean Go Maps uses Google static maps API to query maps and "map" them to unity world.
 This asset makes it easy to convert map positions to unity world positions and vice versa.
